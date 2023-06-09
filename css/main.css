@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: linear-gradient(to right, red, deeppink);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar-brand{
+    text-decoration: none;
+    color: white;
+    font-family: Algerian;
+}
+
+.navbar-nav li{
+    display: inline-block;
+}
+
+.navbar-nav li a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 60px;
+}
